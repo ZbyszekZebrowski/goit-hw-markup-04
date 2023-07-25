@@ -84,8 +84,7 @@ body {
   padding-bottom: 24px;
   border-bottom: 1px solid var(--cornflower);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 1px 6px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -155,8 +154,11 @@ body {
   max-width: 1440px;
   text-align: center;
   background-color: var(--navy-blue);
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/portfolio/people-office\ 1\ background.jpg);
-
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/portfolio/people-office\ 1\ background.jpg);
 
   background-position: center;
   background-repeat: no-repeat;
@@ -216,6 +218,8 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 8px;
+    justify-content: center;
+      border-radius: 4px;
 }
 
 /* .technology-icon {
@@ -224,6 +228,7 @@ body {
 .technology-list {
   display: flex;
   align-items: center;
+
   gap: 24px;
 }
 
