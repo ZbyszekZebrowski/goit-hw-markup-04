@@ -158,6 +158,8 @@ body {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
     url(../images/portfolio/people-office\ 1\ background.jpg);
+
+    
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
