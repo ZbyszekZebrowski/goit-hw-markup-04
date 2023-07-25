@@ -220,11 +220,13 @@ body {
   margin-bottom: 8px;
     justify-content: center;
       border-radius: 4px;
-      width: 64;
-        height: 64;
 }
 
-/* .technology-icon {  */
+ .technology-icon { 
+      width: 64;
+        height: 64;
+      }
+  
 
 
 .technology-list {
