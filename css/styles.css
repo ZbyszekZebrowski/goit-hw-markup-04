@@ -395,7 +395,6 @@ body {
   display: flex;
   justify-content: center;
   margin: auto;
-  width: calc((100% - 120px) / 6);
   gap: 24px;
 }
 
@@ -404,6 +403,7 @@ body {
   min-height: 88px;
   border: 1px solid var(--light-slate);
   border-radius: 4px;
+  width: calc((100% - 120px) / 6);
 }
 
 .customers-link {
