@@ -435,7 +435,11 @@ body {
 }
 
 .footer-container {
+  margin-right: 120px;
   display: flex;
+  align-items: baseline,
+ 
+  
 }
 
 .logo-footer {
@@ -447,6 +451,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--iris);
   text-transform: uppercase;
+}
+
+.logo-footer-link{
+  background-color:var(--iris)
 }
 
 .footer-span {
