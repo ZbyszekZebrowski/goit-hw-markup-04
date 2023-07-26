@@ -423,7 +423,7 @@ body {
 .customers-item:hover,
 .customers-item:focus {
   color: var(--ocean);
-  border: 1px solid var(--ocean);
+  border-color: var(--ocean);
 }
 
 /*-------------------------- Footer --------------------------*/
