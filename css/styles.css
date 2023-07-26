@@ -435,12 +435,13 @@ body {
 }
 
 .footer-container {
-  margin-right: 120px;
-  display: flex;
-  align-items: baseline,
- 
-  
+display: flex;
 }
+.footer-leftside{
+  align-items: baseline;
+  margin-right: 120px;
+}
+
 
 .logo-footer {
   font-family: "Raleway", sans-serif;
