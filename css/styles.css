@@ -399,7 +399,6 @@ body {
 }
 
 .customers-item {
-  min-width: 168px;
   min-height: 88px;
   border: 1px solid var(--light-slate);
   border-radius: 4px;
