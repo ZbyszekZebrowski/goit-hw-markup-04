@@ -416,6 +416,10 @@ body {
   border: 1px solid #8e8f99;
 }
 
+.customers-link:hover, .customers-link:focus {
+  border-color: var(--ocean);
+}
+
 .customers-icon {
   fill: currentColor;
 }
@@ -438,6 +442,8 @@ body {
 display: flex;
 }
 .footer-leftside{
+  display: flex;
+  flex-direction: column;
   align-items: baseline;
   margin-right: 120px;
 }
