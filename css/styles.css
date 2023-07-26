@@ -510,6 +510,8 @@ body {
 
 .footer-soc-icon {
   fill: var(--cloud);
+  width: 24;
+  height: 24;
 }
 
 /*-------------------------- Portfolio page --------------------------*/
