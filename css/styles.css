@@ -506,6 +506,7 @@ body {
 .footer-soc-link:hover,
 .footer-soc-link:focus {
   background-color: var(--green);
+  border-color: #404bbf;
 }
 
 .footer-soc-icon {
